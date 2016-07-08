@@ -1,0 +1,44 @@
+# Site settings
+title: omj530
+description:
+email: pranav@maangalabs.com
+baseurl: /swift
+url: "http://pranav.maangalabs.com" # the base hostname & protocol for your site
+#favicon
+favicon: /favicon.png
+
+#feed
+feedburner_username: maangalabs
+#twitter
+twitter_username: omj530
+github_username:  link-coala
+
+#linkedin
+linkedin_username: pranavrajs
+
+#google analytics
+google_analytics_id : UA-53386152-2
+#gplus
+gplus_username: 101893920934936418705
+
+#fb_username
+fb_username: 
+
+#permalink /blog/2014/11/11/this-is-a-sample-post
+permalink: /blog/:year/:month/:day/:title
+# Build settings
+markdown: kramdown
+
+#Disqus configuration
+disqus_short_name: maangalabscom
+disqus_show_comment_count: false
+
+#Can be used for multiple author blogs ! Add name to post For more visit the sample
+authors:
+  pranavrajs:
+    display_name: omj530
+    email: omj530@gmail.com
+    fb: 
+    linkedin: 
+    twitter: omj530
+    github: link-coala

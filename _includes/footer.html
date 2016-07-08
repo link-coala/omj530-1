@@ -1,0 +1,34 @@
+<!-- Footer -->
+            <div class="row footer">
+              <div class="col-md-1"></div>
+              <div class="col-md-10">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <h4>Publicaciones recientes</h4>
+                        <ul>
+                        {% for post in site.posts limit:4 %}
+                          <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                      <h4>Fotos</h4>
+                      <ul>
+                      {% if site.categories.fotos %}
+                        <li>
+                          <a href="https://github.com/{{ site.github_username }}">
+                            <span class="username">{{ site.github_username }}</span>
+                          </a>
+                        </li>
+                        {% endif %}
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                    
+                  
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
+          <!-- End Footer -->

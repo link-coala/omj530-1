@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "little letter"
+date:   2016-06-26 13:40:34 +0000
+categories: plugs
+---
+es un servicio para distribuir correos como mailchimp que es un servicio que disfrute mucho usar por que tiene una interfaz unica,
+esta también es la empresa que mantiene a little letter que es otra forma de solucionar esta nesecidad.
+ <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/omj530" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/omj530', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+         
