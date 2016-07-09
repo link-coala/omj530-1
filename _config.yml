@@ -3,7 +3,7 @@ title: omj530
 description:
 email: pranav@maangalabs.com
 baseurl: /swift
-url: "http://pranav.maangalabs.com" # the base hostname & protocol for your site
+url: "https://omj530.github.io/omj530/" # the base hostname & protocol for your site
 #favicon
 favicon: /favicon.png
 
