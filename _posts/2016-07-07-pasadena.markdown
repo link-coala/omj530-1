@@ -4,4 +4,4 @@ title:  "pasadena"
 date:   2016-06-26 13:40:34 +0000
 categories: fotos
 ---
-<img src="/images/marsella.jpg" alt="pasadena" style="width:400px;height:250px;"> 
+<center><img src="/images/marsella.jpg" alt="pasadena" style="width:400px;height:250px;"></center> 
