@@ -14,11 +14,7 @@
                     <div class="col-md-3 col-md-offset-1">
                       <h4>Fotos</h4>
                       <ul>
-                      {% if site.categories.fotos %}
-                        <li>
-                          <a href="https://github.com/{{ site.github_username }}">
-                            <span class="username">{{ site.github_username }}</span>
-                          </a>
+                    {% for post in site.categories.fotos %} {{ post.date | date: "%b %-d, %Y" }} {{ post.title }} {% endfor %} 
                         </li>
                         {% endif %}
                       </ul>
